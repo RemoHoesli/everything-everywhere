@@ -1,0 +1,38 @@
+/*
+:root {
+
+}
+*/
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: grid; 
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.box {
+    width: 10vw;
+    height: 10vh;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.waymond {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.evelyn {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.joy {
+    grid-row: 1/2;
+    grid-column: 4/5;
+}

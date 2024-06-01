@@ -28,7 +28,6 @@ body {
     display: grid;
     grid-row: 1/2;
     grid-column: 1/2;
-    opacity: 40%;
 }
 
 .bagel {

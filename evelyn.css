@@ -10,10 +10,33 @@ body {
     overflow: scroll;
     background-color: rgb(239, 35, 60);
     margin: 0;
-    height: 10000px;
+    height: 20000px;
 }
 
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+#transition {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+    transition: opacity 2s;
+}
+.fade {
+    opacity: 0;
+}
+
+.e {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }

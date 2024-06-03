@@ -6,13 +6,19 @@
 }
 */
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 body {
     overflow: scroll;
     margin: 0;
     height: 20000px;
 }
 
-::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+.container {
+    display: grid;
+    width: 10000px;
+    height: 10000px;
 }

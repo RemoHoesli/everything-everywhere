@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             container.style.transform = "translate(" + -2600 + "px , " + SF + "px)";
             widebagel.style.transform = "translate(1200px , 0px) scale("+ SFwidebagel +")";
         }
-        if (SF > 4500) {
+        if (SF > 4600) {
             SF = scrollY;
             window.open("https://remohoesli.github.io/everything-everywhere/evelyn.html", "_self");
         }

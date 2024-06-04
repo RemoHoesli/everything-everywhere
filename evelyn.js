@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     const container = document.getElementById("container");
-    const estripe = document.getElementById("estripe");
+    const groupstart = document.getElementById("groupstart");
 
 
     document.addEventListener("scroll", scrollingtest);
@@ -12,8 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
     //inst for future self: id individual, progress global, horizontal scroll = -scrollY, vertical scroll = scrollY
     //SF für Scroll Fortschritt
     function scrollingtest() {
-        SF = scrollY;
-        container.style.transform = "translate(" + -SF + "px , " + SF + "px)";
+        if (SF < 20000) {
+            SF = scrollY;
+            container.style.transform = "translate(" + -SF + "px , " + SF + "px)";
+        }
+
+
         console.log("Scrollfortschritt: "+SF);
     }
 

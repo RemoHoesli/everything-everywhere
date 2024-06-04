@@ -13,7 +13,6 @@
 
 body {
     overflow: scroll;
-    background-color: rgb(239, 35, 60);
     margin: 0;
     height: 20000px;
 }
@@ -22,21 +21,126 @@ body {
     display: grid;
     width: 10000px;
     height: 10000px;
+    background-color: rgb(0, 0, 0);
 }
 
-#transition {
+.ebild {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.groupstart {
     display: grid;
     grid-row: 1/2;
     grid-column: 1/2;
     z-index: 1;
-    transition: opacity 2s;
-}
-.fade {
-    opacity: 0;
 }
 
-.e {
+.evelynfight1 {
     display: grid;
     grid-row: 1/2;
     grid-column: 1/2;
+    z-index: 1;
+    transform: translate(600px , -10px);
+}
+
+.dark {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+}
+.e1 {
+    transform: translate(1750px , 50px);
+}
+.e2 {
+    transform: translate(1500px , 400px);
+}
+.e3 {
+    transform: translate(2050px , 0px);
+}
+.e4 {
+    transform: translate(2300px , 300px);
+}
+.e5 {
+    transform: translate(2500px , 0px);
+}
+.e6 {
+    transform: translate(1400px , 150px);
+}
+.e7 {
+    transform: translate(2100px , 300px);
+}
+.q1 {
+    transform: translate(1500px , 0px);
+}
+.q2 {
+    transform: translate(1450px , 300px);
+}
+.q3 {
+    transform: translate(1900px , 0px);
+}
+.q4 {
+    transform: translate(1940px , 430px);
+}
+.q5 {
+    transform: translate(2600px , 100px);
+}
+.smoke {
+    z-index: 0;
+    transform: translate(3000px , 150px) scale(1.1);
+}
+
+.whitebackground {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: -1;
+    background-color: white;
+    transform: translate(6000px , 0px);
+}
+
+.senti {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+}
+.ok {
+    transform: translate(4000px , 300px);
+}
+.mental {
+    transform: translate(4500px , 0px);
+}
+
+.fight {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+}
+.f1 {
+    transform: translate(5600px , 100px);
+}
+.smoke1 {
+    transform: translate(5400px , 0px);
+}
+.f2 {
+    transform: translate(5800px , 100px);
+}
+.f3 {
+    transform: translate(6400px , 80px);
+}
+.f4 {
+    transform: translate(7470px , 90px);
+}
+.smoke2 {
+    transform: translate(5970px , 0px);
+}
+.f5 {
+    transform: translate(7350px , 200px);
+}
+.f6 {
+    transform: translate(7000px , 90px);
 }

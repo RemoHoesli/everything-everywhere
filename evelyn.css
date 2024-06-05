@@ -184,11 +184,20 @@ body {
     transform: translate(8200px , -800px);
 }
 .hd2 {
-    transform: translate(8200px , 0px);
+    transform: translate(8600px , 40px);
 }
 .hd3 {
-    transform: translate(8200px , 0px);
+    transform: translate(8700px , 200px);
 }
 .hd4 {
-    transform: translate(8200px , 0px);
+    transform: translate(8900px , 0px);
+}
+.hd5 {
+    transform: translate(9100px , 0px);
+}
+.hd6 {
+    transform: translate(9700px , 20px);
+}
+.hd7 {
+    transform: translate(10100px , 0px);
 }

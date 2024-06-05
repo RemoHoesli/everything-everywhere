@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap");
 /*
 :root {
 
@@ -7,33 +7,143 @@
 */
 
 ::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+  width: 0;
+  height: 0;
 }
 
 body {
-    overflow: scroll;
-    margin: 0;
-    height: 20000px;
+  overflow: scroll;
+  margin: 0;
+  height: 20000px;
+  background-color: black;
+  
 }
 
 .container {
-    display: grid;
-    width: 10000px;
-    height: 10000px;
+  display: grid;
+  width: 10000px;
+  height: 10000px;
 }
 
-.jbild {
-    display: grid;
-    grid-row: 1/2;
-    grid-column: 1/2;
+.j_startbild {
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 1;
+}
+
+.J{
+    transform: translate(-6px , 20px); 
+}
+
+.j_o{
+    transform: translate(435px , 10px); 
+}
+
+.j_Y {
+    transform: translate(504px , 258px);
+    z-index: 1; 
+}
+
+.j_text {
+    transform: translate(380px , 170px);
+}
+
+.j_detail {
+    transform: translate(0px , 0px);
+    z-index: 2;
+}
+
+.sad {
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.j_wash{
+  transform: translate(1000px , 50px);
+  z-index: 10;
+}
+
+.j_cry{
+  transform: translate(1565px , 125px);
+  rotate: -1.5deg;
+  width: 35vw;
+}
+
+.smoke{
+  transform: translate(430px , 0px);
+}
+
+.listen{
+  transform: translate(2680px , 412px);
+  rotate: -5deg;
+  width: 23vw;
+}
+
+.talk{
+  transform: translate(2428px , -93px);
+  rotate: 5deg;
+  width: 45vw;
+}
+
+.im_tired{
+  transform: translate(1700px , 170px);
+  width: 140vw;
+}
+
+.j_text2{
+  transform: translate(1840px, 40px);
+}
+
+.j_cry2{
+  transform: translate(1950px , 100px);
+  width: 45vw;
+}
+
+.text4{
+  transform: translate(2606px , 440px);
+  z-index: 3;
+}
+
+.smoke2{
+  transform: translate(2920px , 0px);
+  width: 70vw;
+}
+
+.j3{
+  transform: translate(4150px , 0px);
+}
+
+.j6{
+  transform: translate(3490px , 0px);
+  width: 131vw;
+}
+
+.j1{
+  transform: translate(3250px , 0px);
+}
+
+.text3{
+  transform: translate(5520px , 215px);
+}
+
+
+.j2{
+  transform: translate(4400px , 22px);
 }
 
 .widebagel {
-    display: grid;
-    grid-row: 1/2;
-    grid-column: 1/2;
-    z-index: 1;
-    transform: translate(1200px, 0px);
-    opacity: 100%;
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 1;
+  transform: translate(4930px, 0px);
+  opacity: 100%;
 }
+
+.j4{
+  transform: translate(5500px , 50px);
+  z-index: 10;
+}
+

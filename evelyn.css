@@ -134,13 +134,14 @@ body {
     z-index: 1;
 }
 .f1 {
-    transform: translate(5600px , 100px);
+    transform: translate(5600px , 150px) rotate(-5deg);
 }
 .smoke1 {
     transform: translate(5400px , 0px);
 }
 .f2 {
     transform: translate(5800px , 100px);
+    transition: 1s;
 }
 .f3 {
     transform: translate(6400px , 80px);
@@ -152,7 +153,8 @@ body {
     transform: translate(5970px , 0px);
 }
 .f5 {
-    transform: translate(7350px , 200px);
+    transform: translate(7200px , 200px);
+    transition: 0.5s;
 }
 .f6 {
     transform: translate(7000px , 90px);
@@ -174,43 +176,80 @@ body {
 }
 .hdsmoke {
     transform: translate(7700px , 0px);
+    transition: 1s;
 }
 .hdfont1 {
     transform: translate(7850px , 30px);
+    transition: 0.1s;
 }
 .hdfont2 {
     transform: translate(7920px , 70px);
+    transition: 0.1s;
 }
 .hdfont3 {
     transform: translate(7880px , 150px);
+    transition: 0.1s;
 }
 .hdfont4 {
     transform: translate(8000px , 210px);
+    transition: 0.1s;
 }
 .hdfont5 {
     transform: translate(8000px , 250px);
+    transition: 0.1s;
 }
 .hdfont6 {
     transform: translate(7900px , 300px);
+    transition: 0.1s;
 }
 .hd1 {
     transform: translate(8200px , -800px);
+    transition: 5s;
 }
 .hd2 {
     transform: translate(8600px , 40px);
 }
 .hd3 {
     transform: translate(8700px , 200px);
+    animation: 2.65s 5;
+}
+.button3 {
+    transform: translate(17400px , 400px);
+    width: 540px;
+    height: 400px;
+    z-index: 2;
+}
+@keyframes hddance {
+    0% {
+        transform: translate(8700px , 200px);
+    }
+    50% {
+        transform: translate(8700px , 250px);
+    }
+    100% {
+        transform: translate(8700px , 200px);
+    }
 }
 .hd4 {
     transform: translate(8900px , 0px);
 }
 .hd5 {
-    transform: translate(9100px , 0px);
+    transform: translate(9000px , 20px);   
 }
 .hd6 {
     transform: translate(9700px , 20px);
 }
 .hd7 {
     transform: translate(10100px , 0px);
+    opacity: 0.5;
+}
+.hd01 {
+    transform: translate(10650px , -300px) scale(0.8);
+    z-index: 2;
+    transition: 1s;
+}
+.hd02 {
+    transform: translate(10600px , -950px) scale(0.8);
+    z-index: 2;
+    transition: 1s;
 }

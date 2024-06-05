@@ -176,7 +176,7 @@ body {
 }
 .hdsmoke {
     transform: translate(7700px , 0px);
-    transition: 1s;
+    transition: 0.5s;
 }
 .hdfont1 {
     transform: translate(7850px , 30px);
@@ -238,10 +238,6 @@ body {
 }
 .hd6 {
     transform: translate(9700px , 20px);
-}
-.hd7 {
-    transform: translate(10100px , 0px);
-    opacity: 0.5;
 }
 .hd01 {
     transform: translate(10650px , -300px) scale(0.8);

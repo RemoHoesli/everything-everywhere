@@ -24,12 +24,6 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-.ebild {
-    display: grid;
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-
 .groupstart {
     display: grid;
     grid-row: 1/2;
@@ -53,39 +47,56 @@ body {
 }
 .e1 {
     transform: translate(1750px , 50px);
+    transition: 4s;
 }
 .e2 {
     transform: translate(1500px , 400px);
+    transition: 2s;
 }
 .e3 {
     transform: translate(2050px , 0px);
+    transition: 2s;
 }
 .e4 {
     transform: translate(2300px , 300px);
+    transition: 2s;
 }
 .e5 {
     transform: translate(2500px , 0px);
+    transition: 2s;
 }
 .e6 {
     transform: translate(1400px , 150px);
+    transition: 2s;
 }
 .e7 {
     transform: translate(2100px , 300px);
+    transition: 2s;
 }
 .q1 {
     transform: translate(1500px , 0px);
+    transition: 2s;
 }
 .q2 {
     transform: translate(1450px , 300px);
+    transition: 2s;
 }
 .q3 {
     transform: translate(1900px , 0px);
+    transition: 2s;
 }
 .q4 {
     transform: translate(1940px , 430px);
+    transition: 2s;
 }
 .q5 {
     transform: translate(2600px , 100px);
+    transition: 2s;
+}
+.blood {
+    z-index: 0;
+    transform: translate(2200px , 0px);
+    transition: 2s;
 }
 .smoke {
     z-index: 0;
@@ -108,10 +119,12 @@ body {
     z-index: 1;
 }
 .ok {
-    transform: translate(4000px , 300px);
+    transform: translate(4050px , 300px);
+    transition: 2s;
 }
 .mental {
-    transform: translate(4500px , 0px);
+    transform: translate(3650px , 100px);
+    transition: 2s;
 }
 
 .fight {

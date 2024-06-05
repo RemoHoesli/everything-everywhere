@@ -144,3 +144,51 @@ body {
 .f6 {
     transform: translate(7000px , 90px);
 }
+
+.whiteredbackground {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: -1;
+    transform: translate(8300px , 0px);
+}
+
+.hotdog {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+}
+.hdsmoke {
+    transform: translate(7700px , 0px);
+}
+.hdfont1 {
+    transform: translate(7850px , 30px);
+}
+.hdfont2 {
+    transform: translate(7920px , 70px);
+}
+.hdfont3 {
+    transform: translate(7880px , 150px);
+}
+.hdfont4 {
+    transform: translate(8000px , 210px);
+}
+.hdfont5 {
+    transform: translate(8000px , 250px);
+}
+.hdfont6 {
+    transform: translate(7900px , 300px);
+}
+.hd1 {
+    transform: translate(8200px , -800px);
+}
+.hd2 {
+    transform: translate(8200px , 0px);
+}
+.hd3 {
+    transform: translate(8200px , 0px);
+}
+.hd4 {
+    transform: translate(8200px , 0px);
+}

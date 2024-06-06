@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //SF für Scroll Fortschritt
     function scrollingtest() {
         responsive.style.transform = "translate(" + 0 + "px , " + -SF*(scalefactor-1) + "px) scale("+ scalefactor +")";
-        if (SF < 20000) {
+        if (SF < 30000) {
             SF = scrollY;
             container.style.transform = "translate(" + -SF + "px , " + SF + "px)";
         }

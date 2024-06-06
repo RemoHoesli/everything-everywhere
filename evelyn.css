@@ -51,31 +51,31 @@ body {
     z-index: 1;
 }
 .e1 {
-    transform: translate(1750px , 50px);
+    transform: translate(1250px , 50px);
     transition: 4s;
 }
 .e2 {
-    transform: translate(1500px , 400px);
+    transform: translate(1000px , 400px);
     transition: 2s;
 }
 .e3 {
-    transform: translate(2050px , 0px);
+    transform: translate(1550px , 0px);
     transition: 2s;
 }
 .e4 {
-    transform: translate(2300px , 300px);
+    transform: translate(1800px , 300px);
     transition: 2s;
 }
 .e5 {
-    transform: translate(2500px , 0px);
+    transform: translate(2000px , 0px);
     transition: 2s;
 }
 .e6 {
-    transform: translate(1400px , 150px);
+    transform: translate(900px , 150px);
     transition: 2s;
 }
 .e7 {
-    transform: translate(2100px , 300px);
+    transform: translate(1600px , 300px);
     transition: 2s;
 }
 .e8 {

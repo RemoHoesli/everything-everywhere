@@ -249,6 +249,9 @@ body {
     grid-column: 1/2;
     z-index: 1;
 }
+.f0 {
+    transform: translate(5700px , -20px);
+}
 .f1 {
     transform: translate(5600px , 150px) rotate(-5deg);
 }

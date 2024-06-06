@@ -130,6 +130,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("sentijoy").style.opacity = "1";
                 document.getElementById("sentifather").style.opacity = "1";
                 document.getElementById("sentiwaymond").style.opacity = "1";
+                document.getElementById("sentiring720").style.animationName = "ring720";
+                document.getElementById("sentiring405f").style.animationName = "ring405f";
+                document.getElementById("sentiring405w").style.animationName = "ring405w";
             }
             document.getElementById("sjoyclick").addEventListener("click", function() {
                 document.getElementById("sentijoy").volume = 1;

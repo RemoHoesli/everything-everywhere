@@ -126,7 +126,7 @@ body {
 }
 .smoke {
     z-index: 0;
-    transform: translate(3000px , 150px) scale(1.1);
+    transform: translate(3000px , 170px) scale(1.1);
 }
 
 .whitebackground {
@@ -153,7 +153,7 @@ body {
     transition: 2s;
 }
 .stext {
-    transform: translate(4080px , 400px);
+    transform: translate(4010px , 400px);
     transition: 0.5s;
 }
 .stextjoy {
@@ -200,6 +200,47 @@ body {
     transform: translate(7390px , 300px);
     transition: 2s;
     z-index: 2;
+}
+.ring720 {
+    transform: translate(3880px , -70px);
+    transition: 2s;
+    z-index: 1;
+    animation: 3s infinite linear;
+}
+.ring405f {
+    transform: translate(4233px , 251px);
+    transition: 2s;
+    z-index: 1;
+    animation: 3s infinite linear;
+}
+.ring405w {
+    transform: translate(3680px , 138px);
+    transition: 2s;
+    z-index: 1;
+    animation: 3s infinite linear;
+}
+@keyframes ring720 {
+    0% { opacity: 0;}
+    20% { opacity: 1;}
+    30% { opacity: 1;}
+    50% { opacity: 0;}
+    100% { opacity: 0;}
+}
+@keyframes ring405f {
+    0% { opacity: 0;}
+    20% { opacity: 0;}
+    40% { opacity: 1;}
+    50% { opacity: 1;}
+    70% { opacity: 0;}
+    100% { opacity: 0;}
+}
+@keyframes ring405w {
+    0% { opacity: 0;}
+    40% { opacity: 0;}
+    60% { opacity: 1;}
+    70% { opacity: 1;}
+    90% { opacity: 0;}
+    100% { opacity: 0;}
 }
 
 .fight {

@@ -19,6 +19,10 @@ body {
   
 }
 
+.responsive {
+  transform-origin: top left;
+}
+
 .container {
   display: grid;
   width: 10000px;
@@ -54,6 +58,8 @@ body {
     z-index: 2;
 }
 
+
+
 .sad {
   display: grid;
   grid-row: 1/2;
@@ -61,12 +67,13 @@ body {
 }
 
 .j_wash{
-  transform: translate(1000px , 50px);
-  z-index: 10;
+  transform: translate(0px , 0px);
+  /*z-index: 10;*/
+  width: 102vw;
 }
 
 .j_cry{
-  transform: translate(1565px , 125px);
+  transform: translate(1535px , 125px);
   rotate: -1.5deg;
   width: 35vw;
 }
@@ -76,13 +83,13 @@ body {
 }
 
 .listen{
-  transform: translate(2680px , 412px);
+  transform: translate(2580px , 412px);
   rotate: -5deg;
   width: 23vw;
 }
 
 .talk{
-  transform: translate(2428px , -93px);
+  transform: translate(2500px , -93px);
   rotate: 5deg;
   width: 45vw;
 }
@@ -97,17 +104,16 @@ body {
 }
 
 .j_cry2{
-  transform: translate(1950px , 100px);
+  transform: translate(1950px , 80px);
   width: 45vw;
 }
 
 .text4{
-  transform: translate(2606px , 440px);
-  z-index: 3;
+  transform: translate(2570px , 440px);
 }
 
 .smoke2{
-  transform: translate(2920px , 0px);
+  transform: translate(2920px , -4px);
   width: 70vw;
 }
 
@@ -125,25 +131,143 @@ body {
 }
 
 .j_text3{
-  transform: translate(3660px , 100px);
+  transform: translate(3735px, 135px);
+  z-index: 10;
 }
-
 
 .j2{
   transform: translate(4400px , 22px);
 }
 
+.bagel1{
+  transform: translate(1820px , 380px);
+  width: 20vw;
+  z-index: 20;
+}
+
+.bagel2{
+  transform: translate(2430px , 40px);
+  width: 12vw;
+  z-index: 20;
+}
+
+.bagel3{
+  transform: translate(3020px , 145px);
+  width: 5vw;
+  z-index: 20;
+}
+
+.bagel4{
+  transform: translate(3130px  ,-10px);
+  width: 12vw;
+}
+
+.bagel5{
+  transform: translate(4800px  , -30px);
+  width: 30vw;
+  z-index: 20;
+}
+
+.bagel6{
+  transform: translate(4830px  ,160px);
+  width: 8vw;
+  z-index: 20;
+}
+
+.bagel7{
+  transform: translate(4800px  ,380px);
+  width: 20vw;
+  z-index: 20;
+}
+
+
+
 .widebagel {
   display: grid;
   grid-row: 1/2;
   grid-column: 1/2;
-  z-index: 1;
-  transform: translate(4930px, 0px);
+  /*z-index: 1;*/
+  transform: translate(4930px,0px);
   opacity: 100%;
 }
 
-.j4{
-  transform: translate(5500px , 50px);
-  z-index: 10;
+
+
+.angry {
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
+
+.nothingM{
+  transform: translate(10760px , 300px);
+}
+
+.j_clown{
+  transform: translate(6100px , 155px);
+}
+
+.j7{
+  transform: translate(6320px , 0px);
+}
+.ifNo{
+  transform: translate(8020px , 310px);
+}
+
+.goth{
+  transform: translate(6620px , 30px);
+  width: 35vw;
+}
+
+.j_bunt{
+  transform: translate(6920px , 185px);
+  width: 15vw;
+}
+
+.clown2{
+  transform: translate(6850px , 305px);
+  width: 18vw;
+}
+
+.ketshup{
+  transform: translate(7010px , -10px);
+  width: 24vw;
+}
+
+.j_gif{
+  transform: translate(7200px , 140px);
+  width: 35vw;
+}
+
+.j_mad{
+  transform: translate(7080px , 343px);
+  width: 18vw;
+}
+
+.j_blue{
+  transform: translate(7400px , 40px);
+  width: 23vw;
+}
+
+.j_back{
+  transform: translate(7560px , 140px);
+  width: 40vw;
+}
+
+.j_party{
+  transform: translate(7670px , -12px);
+  width: 18vw;
+}
+
+.j_fire2{
+  transform: translate(7870px , 20px);
+  width: 25vw;
+}
+
+.green{
+  transform: translate(8060px , 140px);
+  width: 13vw;
+}
+
+
 

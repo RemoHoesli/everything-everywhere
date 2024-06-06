@@ -166,6 +166,9 @@ document.addEventListener('DOMContentLoaded', function () {
             SF = scrollY;
             var SF_2 = SF - 11800;
             container.style.transform = "translate(" + -SF_2 + "px , " + SF + "px)";
+            document.getElementById("sentijoy").volume = 0;
+            document.getElementById("sentifather").volume = 0;
+            document.getElementById("sentiwaymond").volume = 0;
             if (SF > 22500) {
                 document.getElementById("fightf2").style.opacity = "1";
             }
@@ -209,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("hotdoghdfont6").style.opacity = "1";
             }
         }
-        else if (SF < 34000) {
+        else if (SF < 33800) {
             SF = scrollY;
             var SF_3 = SF - 15000;
             container.style.transform = "translate(" + -SF_3 + "px , " + SF + "px)";
@@ -219,9 +222,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log("clicked!");
             });
         }
-        else if (SF > 34000) {
+        else if (SF > 33800) {
             SF = scrollY;
-            container.style.transform = "translate(" + -19000 + "px , " + SF + "px)";
+            container.style.transform = "translate(" + -18800 + "px , " + SF + "px)";
             
             document.getElementById("hotdoghd01").addEventListener("click", function() {
                 document.getElementById("hotdoghd01").style.transform = "translate(" + 10600 + "px , " + -800 + "px) scale(0.8)";
@@ -234,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 function wartenbiswiiterleite() {
                     timerun += 1;
                     console.log("timerun: "+timerun);
-                    if (timerun > 2) {
+                    if (timerun > 1) {
                         clearTimeout(timer);
                         timerun = 0;
                         window.open("https://remohoesli.github.io/everything-everywhere/ende.html", "_self");

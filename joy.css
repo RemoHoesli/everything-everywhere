@@ -14,7 +14,7 @@
 body {
   overflow: scroll;
   margin: 0;
-  height: 20000px;
+  height: 10600px;
   background-color: black;
   
 }
@@ -34,23 +34,28 @@ body {
   grid-row: 1/2;
   grid-column: 1/2;
   z-index: 1;
+  transition: 2s
 }
 
 .J{
     transform: translate(-6px , 20px); 
+    transition: 4s
 }
 
 .j_o{
     transform: translate(435px , 10px); 
+    transition: 4s
 }
 
 .j_Y {
     transform: translate(504px , 258px);
     z-index: 1; 
+    transition: 4s
 }
 
-.j_text {
-    transform: translate(380px , 170px);
+.j_text1 {
+    transform: translate(200px , 170px);
+    transition: 4s
 }
 
 .j_detail {
@@ -58,6 +63,11 @@ body {
     z-index: 2;
 }
 
+.smoke3{
+  transform: translate(550px , 0px);
+  transition: 4s;
+  z-index: 2;
+}
 
 
 .sad {
@@ -76,16 +86,17 @@ body {
 .smoke{
   transform: translate(-40px , -100px);
   width: 3500px;
+  transition: 3s;
 }
 
 .listen{
-  transform: translate(2380px , 400px);
+  transform: translate(2400px , 400px);
   rotate: -5deg;
   width: 23vw;
 }
 
 .talk{
-  transform: translate(2580px , -93px);
+  transform: translate(2570px , -93px);
   rotate: 5deg;
   width: 45vw;
 }
@@ -130,10 +141,12 @@ body {
 .j_text3{
   transform: translate(3735px, 135px);
   z-index: 10;
+  transition: 2s;
 }
 
 .j2{
-  transform: translate(4400px , 22px);
+  transform: translate(4370px , -20px);
+  width: 50vw;
 }
 
 .bagel1{
@@ -202,6 +215,7 @@ body {
 
 .nothingM{
   transform: translate(10760px , 300px);
+  transition: 1s;
 }
 
 .j_clown{
@@ -213,7 +227,7 @@ body {
 }
 .ifNo{
   transform: translate(8020px , 310px);
-  transition: 1s;
+  transition: 3s;
 }
 
 .goth{
@@ -281,3 +295,49 @@ body {
   width: 10vw;
   z-index: 20;
 }
+
+.whiteB{
+  transform: translate(8900px  ,0px);
+}
+
+.uberg3{
+  transform: translate(17500px  ,0px);
+  width: 100vw;
+}
+
+
+
+.rock {
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.sky{
+  transform: translate(10250px  ,0px);
+}
+
+.justbe{
+  transform: translate(9800px  ,100px);
+}
+
+.rockback{
+  transform: translate(9690px  ,200px);
+  width: 30vw;
+}
+
+.rock_falling{
+  transform: translate(9990px  ,200px);
+  width: 26vw;
+}
+
+.stupid{
+  transform: translate(10490px  ,40px);
+  transition: 3s;
+}
+
+.steinE{
+  transform: translate(10600px  ,150px);
+  z-index: 100;
+}
+

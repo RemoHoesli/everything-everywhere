@@ -13,8 +13,13 @@
 
 body {
     overflow: scroll;
+    overflow-x: hidden;
     margin: 0;
     height: 20000px;
+}
+
+.responsive {
+    transform-origin: top left;
 }
 
 .container {
@@ -73,6 +78,22 @@ body {
     transform: translate(2100px , 300px);
     transition: 2s;
 }
+.e8 {
+    transform: translate(1200px , -950px) scale(0.7) rotate(-1.5deg);
+    transition: 2s;
+}
+.e9 {
+    transform: translate(1800px , 350px);
+    transition: 2s;
+}
+.e10 {
+    transform: translate(2300px , 200px) rotate(3deg);
+    transition: 2s;
+}
+.e11 {
+    transform: translate(2700px , 200px);
+    transition: 2s;
+}
 .q1 {
     transform: translate(1500px , 0px);
     transition: 2s;
@@ -123,8 +144,57 @@ body {
     transition: 2s;
 }
 .mental {
-    transform: translate(3650px , 100px);
+    transform: translate(3800px , 200px);
     transition: 2s;
+}
+.stext {
+    transform: translate(4080px , 400px);
+    transition: 0.5s;
+}
+.stextjoy {
+    transform: translate(3940px , 390px);
+    transition: 0.5s;
+}
+.stextfather {
+    transform: translate(3950px , 390px);
+    transition: 0.5s;
+}
+.stextwaymond {
+    transform: translate(4020px , 400px);
+    transition: 0.5s;
+}
+.sjoy {
+    transform: translate(3900px , -50px);
+    transition: 2s;
+}
+.sfather {
+    transform: translate(4100px , -450px) scale(0.75);
+    transition: 2s;
+}
+.swaymond {
+    transform: translate(3470px , -580px) scale(0.75);
+    transition: 2s;
+}
+.sjoyclick {
+    width: 720px;
+    height: 720px;
+    transform: translate(7800px , -100px);
+    transition: 2s;
+    z-index: 2;
+}
+.sfatherclick {
+    width: 405px;
+    height: 405px;
+    transform: translate(8500px , 530px);
+    transition: 2s;
+    z-index: 2;
+}
+.swaymondclick {
+    width: 405px;
+    height: 405px;
+    transform: translate(7390px , 300px);
+    transition: 2s;
+    z-index: 2;
 }
 
 .fight {

@@ -2,19 +2,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     const container = document.getElementById("container");
-    const groupstart = document.getElementById("groupstart");
+    const responsive = document.getElementById("responsive");
+    document.getElementById("sentijoy").volume = 0.0;
+    document.getElementById("sentifather").volume = 0.0;
+    document.getElementById("sentiwaymond").volume = 0.0;
 
 
     document.addEventListener("scroll", scrollingtest);
     var SF = 0;
+
+    var scalefactor = window.innerHeight/980;
+    responsive.style.transform = "translate(" + 0 + "px , " + -SF*(scalefactor-1) + "px) scale("+ scalefactor +")";
+            
     
   
     //inst for future self: id individual, progress global, horizontal scroll = -scrollY, vertical scroll = scrollY
     //SF für Scroll Fortschritt
     function scrollingtest() {
-        if (SF < 3000) {
+        responsive.style.transform = "translate(" + 0 + "px , " + -SF*(scalefactor-1) + "px) scale("+ scalefactor +")";
+        if (SF < 1700) {
             SF = scrollY;
             container.style.transform = "translate(" + -SF + "px , " + SF + "px)";
+            
             document.getElementById("darke1").style.opacity = "0";
             document.getElementById("darke2").style.opacity = "0";
             document.getElementById("darke3").style.opacity = "0";
@@ -22,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById("darke5").style.opacity = "0";
             document.getElementById("darke6").style.opacity = "0";
             document.getElementById("darke7").style.opacity = "0";
+            document.getElementById("darke8").style.opacity = "0";
+            document.getElementById("darke9").style.opacity = "0";
+            document.getElementById("darke10").style.opacity = "0";
+            document.getElementById("darke11").style.opacity = "0";
             document.getElementById("darkq1").style.opacity = "0";
             document.getElementById("darkq2").style.opacity = "0";
             document.getElementById("darkq3").style.opacity = "0";
@@ -30,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         else if (SF < 11000) {
             SF = scrollY;
-            container.style.transform = "translate(" + -3000 + "px , " + SF + "px)";
+            container.style.transform = "translate(" + -1700 + "px , " + SF + "px)";
             if (SF > 3000) {
                 document.getElementById("darke1").style.opacity = "1";
                 document.getElementById("darke2").style.opacity = "1";
@@ -40,6 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("darke4").style.opacity = "1";
                 document.getElementById("darke5").style.opacity = "1";
                 document.getElementById("darkq1").style.opacity = "1";
+                document.getElementById("darke8").style.opacity = "1";
+                document.getElementById("darke9").style.opacity = "1";
+                document.getElementById("darke10").style.opacity = "1";
+                document.getElementById("darke11").style.opacity = "1";
             }
             if (SF > 4000) {
                 document.getElementById("darke6").style.opacity = "1";
@@ -63,6 +80,8 @@ document.addEventListener('DOMContentLoaded', function () {
             if (SF > 6500) {
                 document.getElementById("darke3").style.opacity = "0";
                 document.getElementById("darkq1").style.opacity = "0";
+                document.getElementById("darke8").style.opacity = "0";
+                document.getElementById("darke9").style.opacity = "0";
             }
             if (SF > 7000) {
                 document.getElementById("darke6").style.opacity = "0";
@@ -92,6 +111,10 @@ document.addEventListener('DOMContentLoaded', function () {
             if (SF > 12500) {
                 document.getElementById("darke5").style.opacity = "0";
             }
+            if (SF > 12700) {
+                document.getElementById("darke10").style.opacity = "0";
+                document.getElementById("darke11").style.opacity = "0";
+            }
         }
         else if (SF < 19000) {
             SF = scrollY;
@@ -102,8 +125,39 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             if (SF > 17500) {
                 document.getElementById("sentimental").style.opacity = "1";
-                document.getElementById("sentimental").style.transform = "translate(" + 3650 + "px , " + -100 + "px)";
+                document.getElementById("sentimental").style.transform = "translate(" + 3800 + "px , " + -100 + "px)";
+                document.getElementById("sentistext").style.opacity = "1";
+                document.getElementById("sentijoy").style.opacity = "1";
+                document.getElementById("sentifather").style.opacity = "1";
+                document.getElementById("sentiwaymond").style.opacity = "1";
             }
+            document.getElementById("sjoyclick").addEventListener("click", function() {
+                document.getElementById("sentijoy").volume = 1;
+                document.getElementById("sentifather").volume = 0;
+                document.getElementById("sentiwaymond").volume = 0;
+                document.getElementById("sentistext").style.opacity = "0";
+                document.getElementById("sentistextjoy").style.opacity = "1";
+                document.getElementById("sentistextfather").style.opacity = "0";
+                document.getElementById("sentistextwaymond").style.opacity = "0";
+            });
+            document.getElementById("sfatherclick").addEventListener("click", function() {
+                document.getElementById("sentijoy").volume = 0;
+                document.getElementById("sentifather").volume = 1;
+                document.getElementById("sentiwaymond").volume = 0;
+                document.getElementById("sentistext").style.opacity = "0";
+                document.getElementById("sentistextjoy").style.opacity = "0";
+                document.getElementById("sentistextfather").style.opacity = "1";
+                document.getElementById("sentistextwaymond").style.opacity = "0";
+            });
+            document.getElementById("swaymondclick").addEventListener("click", function() {
+                document.getElementById("sentijoy").volume = 0;
+                document.getElementById("sentifather").volume = 0;
+                document.getElementById("sentiwaymond").volume = 1;
+                document.getElementById("sentistext").style.opacity = "0";
+                document.getElementById("sentistextjoy").style.opacity = "0";
+                document.getElementById("sentistextfather").style.opacity = "0";
+                document.getElementById("sentistextwaymond").style.opacity = "1";
+            });
         }
         else if (SF < 27300) {
             SF = scrollY;

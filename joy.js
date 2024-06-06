@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("smoke3").style.opacity = "0";
             }
         }
-        else if (SF < 30000) {
+        else if (SF < 21600) {
             SF = scrollY;
             var SF_1 = scrollY - 1000;
             container.style.transform = "translate(" + -SF_1 + "px , " + SF + "px)";
@@ -68,6 +68,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("stupid").style.opacity = "1";
             }
             
+        }
+        if (SF > 21600) {
+            SF = scrollY;
+            container.style.transform = "translate(" + -20600 + "px , " + SF + "px)";
         }
         console.log("Scrollfortschritt: "+SF); 
 

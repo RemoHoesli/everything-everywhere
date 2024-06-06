@@ -338,6 +338,13 @@ body {
 
 .steinE{
   transform: translate(10600px  ,150px);
-  z-index: 100;
+  z-index: 1;
+}
+
+.rclick{
+  transform: translate(21900px, 450px);
+  width: 350px;
+  height: 250px;
+  z-index: 2;
 }
 

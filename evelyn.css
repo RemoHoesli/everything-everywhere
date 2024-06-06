@@ -52,10 +52,12 @@ body {
 }
 .e1 {
     transform: translate(1250px , 50px);
+    z-index: 0;
     transition: 4s;
 }
 .e2 {
-    transform: translate(1000px , 400px);
+    transform: translate(900px , 100px) scale(0.9);
+    z-index: 0;
     transition: 2s;
 }
 .e3 {
@@ -63,15 +65,15 @@ body {
     transition: 2s;
 }
 .e4 {
-    transform: translate(1800px , 300px);
+    transform: translate(2000px , 300px);
     transition: 2s;
 }
 .e5 {
-    transform: translate(2000px , 0px);
+    transform: translate(2200px , 0px);
     transition: 2s;
 }
 .e6 {
-    transform: translate(900px , 150px);
+    transform: translate(400px , -650px) scale(0.7);
     transition: 2s;
 }
 .e7 {
@@ -79,11 +81,12 @@ body {
     transition: 2s;
 }
 .e8 {
-    transform: translate(1200px , -950px) scale(0.7) rotate(-1.5deg);
+    transform: translate(600px , -950px) scale(0.7) rotate(-1.5deg);
+    z-index: 0;
     transition: 2s;
 }
 .e9 {
-    transform: translate(1800px , 350px);
+    transform: translate(1300px , 350px);
     transition: 2s;
 }
 .e10 {
@@ -95,19 +98,21 @@ body {
     transition: 2s;
 }
 .q1 {
-    transform: translate(1500px , 0px);
+    transform: translate(950px , 0px);
+    z-index: 0;
     transition: 2s;
 }
 .q2 {
-    transform: translate(1450px , 300px);
+    transform: translate(980px , 270px);
+    z-index: 0;
     transition: 2s;
 }
 .q3 {
-    transform: translate(1900px , 0px);
+    transform: translate(1320px , 0px);
     transition: 2s;
 }
 .q4 {
-    transform: translate(1940px , 430px);
+    transform: translate(1350px , 390px);
     transition: 2s;
 }
 .q5 {
@@ -223,7 +228,7 @@ body {
     transform: translate(5970px , 0px);
 }
 .f5 {
-    transform: translate(7200px , 200px);
+    transform: translate(7200px , 250px);
     transition: 0.5s;
 }
 .f6 {
@@ -281,13 +286,14 @@ body {
 }
 .hd3 {
     transform: translate(8700px , 200px);
-    animation: 2.65s 5;
+    animation: 2.65s infinite;
+    animation-name: 0;
 }
 .button3 {
     transform: translate(17400px , 400px);
     width: 540px;
     height: 400px;
-    z-index: 2;
+    z-index: 3;
 }
 @keyframes hddance {
     0% {
@@ -304,10 +310,10 @@ body {
     transform: translate(8900px , 0px);
 }
 .hd5 {
-    transform: translate(9000px , 20px);   
+    transform: translate(9000px , 50px);   
 }
 .hd6 {
-    transform: translate(9700px , 20px);
+    transform: translate(9700px , 40px);
 }
 .hd01 {
     transform: translate(10650px , -300px) scale(0.8);

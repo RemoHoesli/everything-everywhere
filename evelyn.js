@@ -44,11 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
         else if (SF < 11000) {
             SF = scrollY;
             container.style.transform = "translate(" + -1700 + "px , " + SF + "px)";
-            if (SF > 3000) {
+            if (SF > 2500) {
                 document.getElementById("darke1").style.opacity = "1";
-                document.getElementById("darke2").style.opacity = "1";
             }
-            if (SF > 3500) {
+            if (SF > 3000) {
                 document.getElementById("darke3").style.opacity = "1";
                 document.getElementById("darke4").style.opacity = "1";
                 document.getElementById("darke5").style.opacity = "1";
@@ -58,23 +57,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("darke10").style.opacity = "1";
                 document.getElementById("darke11").style.opacity = "1";
             }
-            if (SF > 4000) {
+            if (SF > 3500) {
                 document.getElementById("darke6").style.opacity = "1";
                 document.getElementById("darkq2").style.opacity = "1";
             }
-            if (SF > 4500) {
+            if (SF > 4000) {
                 document.getElementById("darke7").style.opacity = "1";
                 document.getElementById("darkq1").style.opacity = "0";
             }
-            if (SF > 5000) {
+            if (SF > 4500) {
                 document.getElementById("darkq3").style.opacity = "1";
+                document.getElementById("darke2").style.opacity = "1";
                 
             }
             if (SF > 5500) {
                 document.getElementById("darkq2").style.opacity = "0";
             }
             if (SF > 6000) {
-                document.getElementById("darke2").style.opacity = "0";
                 document.getElementById("darkq4").style.opacity = "1";
             }
             if (SF > 6500) {
@@ -89,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             if (SF > 7500) {
                 document.getElementById("darke7").style.opacity = "0";
+                document.getElementById("darke2").style.opacity = "0";
             }
             if (SF > 8000) {
                 document.getElementById("darkq3").style.opacity = "0";
@@ -101,17 +101,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("darkblood").style.opacity = "1";
             }
         }
-        else if (SF < 15200) {
+        else if (SF < 16500) {
             SF = scrollY;
-            var SF_1 = SF - 8000;
+            var SF_1 = SF - 9300;
             container.style.transform = "translate(" + -SF_1 + "px , " + SF + "px)";
-            if (SF > 12000) {
+            if (SF > 12500) {
                 document.getElementById("darke4").style.opacity = "0";
             }
-            if (SF > 12500) {
+            if (SF > 13000) {
                 document.getElementById("darke5").style.opacity = "0";
             }
-            if (SF > 12700) {
+            if (SF > 13600) {
                 document.getElementById("darke10").style.opacity = "0";
                 document.getElementById("darke11").style.opacity = "0";
             }
@@ -213,22 +213,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
             document.getElementById("hotdogbutton3").addEventListener("click", function() {
                 document.getElementById("hotdoghd3").style.animationName = "hddance";
+                console.log("clicked!");
             });
         }
         else if (SF > 34000) {
             SF = scrollY;
             container.style.transform = "translate(" + -19000 + "px , " + SF + "px)";
-
-            var taskcheck = 0; 
-            var taskcheck1 = 0;
-            var taskcheck2 = 0; 
-            document.getElementById("hotdoghd02").addEventListener("click", function() {
-                document.getElementById("hotdoghd02").style.transform = "translate(" + 10650 + "px , " + -350 + "px) scale(0.8)";
-                console.log("clicked!");
-            });
+            
             document.getElementById("hotdoghd01").addEventListener("click", function() {
                 document.getElementById("hotdoghd01").style.transform = "translate(" + 10600 + "px , " + -800 + "px) scale(0.8)";
             });
+            
+            document.getElementById("hotdoghd02").addEventListener("click", function() {
+                document.getElementById("hotdoghd02").style.transform = "translate(" + 10650 + "px , " + -350 + "px) scale(0.8)";
+                var timerun = 0;
+                var timer = setInterval(wartenbiswiiterleite, 1000);
+                function wartenbiswiiterleite() {
+                    timerun += 1;
+                    console.log("timerun: "+timerun);
+                    if (timerun > 2) {
+                        clearTimeout(timer);
+                        timerun = 0;
+                        window.open("https://remohoesli.github.io/everything-everywhere/ende.html", "_self");
+                    }
+                }
+            });
+            
         }
 
 

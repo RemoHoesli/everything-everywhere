@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("j_o").style.opacity = "0";
                 document.getElementById("j_Y").style.opacity = "0";
                 document.getElementById("j_text1").style.opacity = "0";
+                document.getElementById("j_detail").style.opacity = "0";
                 document.getElementById("smoke3").style.transform = "translate(0px, 0px)";
             }
             if (SF > 800){
@@ -46,12 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById("j_text3").style.opacity = "1";
             }
             
-            if (SF > 8000){
+            if (SF > 9000){
                 document.getElementById("j_text3").style.opacity = "0";
             }
 
             /*"nothing matters"(donat muss noch stoppen, dann scrolt man weter --> die zahl vom weiterscorllen hinein)*/
-            if (SF > 9275){
+            if (SF > 11100){
 
                 document.getElementById("nothingM").style.opacity = "0";
             }

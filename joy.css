@@ -39,18 +39,18 @@ body {
 
 .J{
     transform: translate(-6px , 20px); 
-    transition: 4s
+    transition: 2s
 }
 
 .j_o{
     transform: translate(435px , 10px); 
-    transition: 4s
+    transition: 2s
 }
 
 .j_Y {
     transform: translate(504px , 258px);
     z-index: 1; 
-    transition: 4s
+    transition: 2s
 }
 
 .j_text1 {
@@ -61,6 +61,7 @@ body {
 .j_detail {
     transform: translate(0px , 0px);
     z-index: 2;
+    transition: 4s;
 }
 
 .smoke3{
@@ -214,7 +215,7 @@ body {
 }
 
 .nothingM{
-  transform: translate(10760px , 300px);
+  transform: translate(5380px , 160px);
   transition: 1s;
 }
 

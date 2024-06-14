@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             /*"nothing matters"(donat muss noch stoppen, dann scrolt man weter --> die zahl vom weiterscorllen hinein)*/
-            if (SF > 11100){
+            if (SF > 10900){
 
                 document.getElementById("nothingM").style.opacity = "0";
             }
